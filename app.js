@@ -10,3 +10,9 @@ btnclick.addEventListener("click", () => {
     btn.innerHTML = ` you are ${birthyearcla} year old`;
   }
 });
+
+// code for set things back //
+const refrsh = document.querySelector("#refrsh");
+refrsh.addEventListener("click", () => {
+  btn.innerHTML = " ";
+});
